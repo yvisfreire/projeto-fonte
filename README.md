@@ -4,5 +4,5 @@ Este projeto, desenvolvido para a disciplina SSC0180 - Eletrônica para Computa�
 ## Alunos:
 - Davi Fagundes Ferreira da Silva
 - Henrico Lazuroz Moura de Almeida
-- Pão
+- Pedro Guilherme dos Reis Teixeira
 - Yvis Freire Silva Santos

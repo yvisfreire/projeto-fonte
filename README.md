@@ -57,7 +57,7 @@ Com base nos componentes descritos acima, construímos o seguinte circuito na fe
 
 <div align="center">
 <p float="left">
-  <img src="/circuito-falstad.png" width="900" />
+  <img src="/circuito-falstad.jpg" width="900" />
 </p>
 </div>
 
@@ -82,5 +82,5 @@ Com base nos componentes descritos acima, construímos o seguinte circuito na fe
 ## Alunos:
 - Davi Fagundes Ferreira da Silva - 12544013
 - Henrico Lazuroz Moura de Almeida - 12543502
-- Pedro Guilherme dos Reis Teixeira - 
+- Pedro Guilherme dos Reis Teixeira - 12542477
 - Yvis Freire Silva Santos - 12608793

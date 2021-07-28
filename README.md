@@ -12,7 +12,7 @@ Este projeto, desenvolvido para a disciplina SSC0180 - Eletrônica para Computa�
 | Diodo Zener | Diodo Zener BZX55C [13V/0.5W] | Corta a tensão de saída do capacitor abaixo da oscilação (ripple) | R$0,09 |
 | Resistor (1) | Resistor de 2.7K | Responsável por limitar a corrente que flui ao Diodo Zener garantindo a segurança do mesmo | R$0,06 |
 | Resistor (2) | Resistor de 2.2K | Responsável por limitar a resistência do potenciômetro de forma que a tensão final seja no mínimo aproximadamente 3V | R$0,06 |
-| Potenciômetro | Potenciômetro Linear de 5KΩ | | Ajusta a tensão de saída | R$1,99 |
+| Potenciômetro | Potenciômetro Linear de 5KΩ | Ajusta a tensão de saída | R$1,99 |
 
 Todos os valores foram retirados da loja [Báu da Eletrônica](https://www.baudaeletronica.com.br/)
 

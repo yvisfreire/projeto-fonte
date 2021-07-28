@@ -16,6 +16,41 @@ Este projeto, desenvolvido para a disciplina SSC0180 - Eletrônica para Computa�
 
 Todos os valores foram retirados da loja [Báu da Eletrônica](https://www.baudaeletronica.com.br/)
 
+## Transformação
+
+Tensão entrada pico 127 x raiz(2) = 180V -> converte para 24V 
+
+Foi escolhida a conversão de 127V para 24V com a mentalidade de que peças feitas para interagir com uma tensão de 24 volts são mais baratas e de mais fácil acessibilidade.
+
+A fórmula feita para definir a razão de conversão transformador foi:
+Ui/Uf = Ni/Nf
+Sendo Ui e Uf respectivamente as tensões inicial e final, e Ni/Nf as suas razões.
+Então: 127/24 = 1/Nf -------> Nf =~ 0,1889
+
+## Retificação
+
+Cada Diodo consome 0,7V da tensão de entrada -> 
+24 x raiz de 2 - 1,4 = 32,44V 
+Como a corrente inicialmente possui sentido alternado é usada
+uma ponte de diodos, os quais só permitem a passagem de
+corrente em uma direção, para torná-la em uma corrente contínua.
+
+Por consequência a voltagem máxima acaba por diminuir 1,4 volts
+já que a corrente passa por dois diodos e cada um diminui 0,7
+
+## Filtragem
+
+Adotando um Ripple de, no máximo, 10% da tensão de entrada, temos:
+Vripple = 0,1 x 32,44 = 3,24V
+C = I / f . Vripple
+f = 120hz (60 x 2) -> onda completa (dobro da entrada)
+Ripple = 3,24V
+I = 104mA
+C = 104 . 10⁻3 / 120 . 3,24 = 0,268 . 10⁻3 = 268uF
+Adotamos o capacitor de valor comercial mais próximo (270uF)
+
+## Regulação
+
 ## Circuito Falstad
 
 Com base nos componentes descritos acima, construímos o seguinte circuito na ferramenta Falstad:

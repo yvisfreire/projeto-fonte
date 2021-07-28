@@ -30,10 +30,22 @@ Com base nos componentes descritos acima, construímos o seguinte circuito na fe
 
 ## Circuito EAGLE
 
+<div align="center">
+<p float="left">
+  <img src="/circuito-eager.jpg" width="900" />
+</p>
+</div>
+
 ## Esquemático EAGLE
 
+<div align="center">
+<p float="left">
+  <img src="/esquematico-eager.jpg" width="900" />
+</p>
+</div>
+
 ## Alunos:
-- Davi Fagundes Ferreira da Silva
-- Henrico Lazuroz Moura de Almeida
-- Pedro Guilherme dos Reis Teixeira
-- Yvis Freire Silva Santos
+- Davi Fagundes Ferreira da Silva - 
+- Henrico Lazuroz Moura de Almeida - 12543502
+- Pedro Guilherme dos Reis Teixeira - 
+- Yvis Freire Silva Santos - 

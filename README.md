@@ -83,4 +83,4 @@ Com base nos componentes descritos acima, construímos o seguinte circuito na fe
 - Davi Fagundes Ferreira da Silva - 12544013
 - Henrico Lazuroz Moura de Almeida - 12543502
 - Pedro Guilherme dos Reis Teixeira - 
-- Yvis Freire Silva Santos - 
+- Yvis Freire Silva Santos - 12608793

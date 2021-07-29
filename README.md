@@ -127,7 +127,7 @@ O resistor abaixo dele permite que o mínimo chegue a 3v, senão ele estaria lig
 
 Vtransistor + Ripple / R2 + Rmin = Vzener / R2 + Rmax
 
-4V / R2 + 25Ω = 13V / R2 + 5025Ω
+4V / R2 + 25Ω = 13V / R2 + 4975Ω
 
 R2 = 2.2KΩ
 

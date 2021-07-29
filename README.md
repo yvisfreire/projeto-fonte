@@ -95,15 +95,47 @@ Adotamos o capacitor de valor comercial mais próximo (270uF)
 Agora, a parte de regulação funciona por conta de um diodo zener
 que serve para cortar o ripple completamente, trabalhando com a tensão de saída do capacitor abaixo da oscilação do ripple. 
 
+### Zener
+
 O zener tem dois estados, ligado e desligado, quando ele está ligado é como um curto circuito, que corta a oscilação (ripple). Quando desligado, ele não serve de muito.
 
 O diodo zener serve como um regulador de tensão porque a tensão resultante advém da subtração entre a tensão do capacitor e a tensão zener, o que corta o ripple de fato.
 
-Importante ter esse resistor em cima do diodo zener para diminuir a corrente que passa por ele, senão ele queima. A tensão da bateria sempre tem que estar maior que a zener para que ele esteja ligado.
+Importante ter esse resistor em cima do diodo zener para diminuir a corrente que passa por ele, senão ele queima. Para determinar essa resistência, utilizamos a seguinte fórmula:
 
-O potenciômetro funciona para, de fato, poder-se mudar a tensão resultante do circuito de 3v para 12v. O resistor abaixo dele permite que o mínimo chegue a 3v, senão ele estaria ligado no ground e, portanto, seria 0V a tensão mínima.
+R1 = (Vs - Vz) / Imax
 
-O transistor npn serve, também, para regular a tensão, embora transistores assim sejam utilizados para regular a corrente de uma dada parte do circuito. O transistor tira 0,7v da tensão, portanto o valor se aproxima bastante de 12v.
+, onde:
+
+Vs = tensão do circuito. 24V de entrada - 1,4V dos diodos.
+Vz = tensão zener. No nosso caso, escolhemos um zener que opera sobre 13V.
+Imax = corrente máxima
+
+Logo,
+
+R1 = (22.6V - 13V) / 3mA
+
+R1 = 2.7KΩ
+
+A tensão da bateria sempre tem que estar maior que a zener para que ele esteja ligado.
+
+### Potenciômetro
+
+O potenciômetro funciona para, de fato, poder-se mudar a tensão resultante do circuito de 3v para 12v. 
+
+O resistor abaixo dele permite que o mínimo chegue a 3v, senão ele estaria ligado no ground e, portanto, seria 0V a tensão mínima. Para determinar essa resistência, utilizamos a seguinte fórmula:
+
+Vtransistor + Ripple / R2 + Rmin = Vzener / R2 + Rmax
+
+4V / R2 + 25Ω = 13V / R2 + 5025Ω
+
+R2 = 2.2KΩ
+
+### Transistor
+
+O transistor npn serve, também, para regular a tensão, embora transistores assim sejam utilizados para regular a corrente de uma dada parte do circuito. 
+
+O transistor consome 0.7V da tensão, portanto o valor se aproxima bastante de 12v.
 
 ## Circuito Falstad
 

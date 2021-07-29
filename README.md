@@ -147,7 +147,7 @@ Com base nos componentes descritos acima, construímos o seguinte circuito na fe
 </p>
 </div>
 
-[Link do Falstad para a simulação](https://tinyurl.com/circuito-falstad).
+[Link do Falstad para a simulação](https://tinyurl.com/ydsbskuw).
 
 [Link para vídeo explicativo do circuito](https://drive.google.com/file/d/1KsUaTKmFKiEkLXKAnJEo1fPohyWpZy89/view?usp=sharing).
 
